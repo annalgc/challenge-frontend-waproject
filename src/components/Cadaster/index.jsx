@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 
 import { 
     makeStyles, 
@@ -38,7 +38,7 @@ const useStyles = makeStyles({
         alignSelf: 'center',
         paddingTop: '10px',
         marginBottom: '30px',
-        font: '700 normal 30px/1em Fira Sans, sans-serif',
+        font: '700 normal 36px/1em Fira Sans, sans-serif',
         color: '#fff',
     },
     username: {
@@ -77,7 +77,7 @@ function Cadaster() {
 
     return (
         <section className={classes.container}>
-            <Typography variant='h3' component='h3' className={classes.title}>Sejx Bem Vindx!!</Typography>
+            <Typography variant='h2' component='h2' className={classes.title}>Hello everyone.</Typography>
             <form className={classes.container} onSubmit={event => handleSubmit(event)}>
                 <TextField 
                     label='Qual é o seu nome?'

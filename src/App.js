@@ -39,7 +39,7 @@ const useStyles = makeStyles({
       flexDirection: 'column',
       justifyContent: 'center',
       width: '100%',
-      padding: '0 80px',
+      paddingRight: '50px',
   },
   containerButton: {
     display: 'flex',
